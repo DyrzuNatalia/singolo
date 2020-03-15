@@ -1,0 +1,35 @@
+.footer{
+    background-color: #303441;
+}
+.footer-wrap{
+    min-height: 75px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__footer{
+    display       : flex;
+    flex-direction: row;
+}
+
+.social__link--footer{
+color: #666d89;
+}
+
+.social__link--footer:hover{
+    background-color: #666d89;
+    color: #303441;
+}
+.autor__link{
+    color:  #666d89; 
+}
+
+.autor{
+    margin-bottom: 10px;
+}
+
+.autor__link:hover{
+    color:  #96a9f1;
+}
